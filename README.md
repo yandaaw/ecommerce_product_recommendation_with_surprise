@@ -1,1 +1,1 @@
-# ecommerce_product_recommendation_with_surprise
+# E-commerce Product Recommendation with Surprise
