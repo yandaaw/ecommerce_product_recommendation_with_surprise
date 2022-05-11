@@ -27,7 +27,24 @@ The name Surprise stands for Simple Python RecommendatIon System Engine. Please 
 
 To experiment with recommendation algorithms, we will need data that contains a set of items and a set of users who have reacted to some of the items. The reaction can be explicit (rating on a scale of 1 to 5, likes or dislikes) or implicit (viewing an item, adding it to a wish list, the time spent on an article). While working with such data, you’ll mostly see it in the form of a matrix consisting of the reactions given by a set of users to some items from a set of items. Each row would contain the ratings given by a user, and each column would contain the ratings received by an item.<br>
 
-The goal of this project is to develop a recommendation system that will be customized for each user, ensuring that every item purchased is suitable with their tastes.
+The main goal of this project is to develop a recommendation system that will be customized for each user, ensuring that every item purchased is suitable with their tastes.
+
+## Built With
+This project was built using Python programing language and several Python libraries such as:
+- [**pandas**](https://pandas.pydata.org/)<br>
+- [**NumPy**](https://numpy.org/)<br>
+- [**seaborn**](https://seaborn.pydata.org/)<br>
+- [**matplotlib**](https://matplotlib.org/)<br>
+- [**surprise**](http://surpriselib.com/)
+
+## **Steps and Process**
+A list of simple methods can be seen below that can be used as a guide for constructing a product recommendation project with the Surprise library. The following link contains further information on the process that was used: [**Building and Testing Recommender Systems for E-commerce Products With Surprise - SVD Model and ALS Model**](https://github.com/yandaaw/ecommerce_product_recommendation_with_surprise/blob/main/Recommender_Systems_for_Ecommerce_Products_With_Surprise.ipynb)
+- Step 1: Data Collection
+- Step 2: Data Cleansing
+- Step 3: Data Preprocessing
+- Step 4: Modeling
+- Step 5: Evaluation
+- Step 6: Deployment
 
 ## **Conclusion**
 ![image](https://user-images.githubusercontent.com/73176284/167832858-d77ff252-e479-42e0-9add-75233c9cd2e8.png)
